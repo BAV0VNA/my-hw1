@@ -26,6 +26,12 @@ ul,
 ol {
   list-style-type: none;
 }
+
 .web-link {
   color: #4d5ae5;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
 }
