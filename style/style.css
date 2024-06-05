@@ -39,10 +39,12 @@ ol {
 }
 
 a {
+  color: #434455;
   text-decoration: none;
   list-style-type: none;
+  font-style: normal;
 }
-
+/* Header */
 .header {
 }
 .header-nav {
@@ -66,8 +68,9 @@ a {
 .nav-list {
 }
 .nav-item {
-  /* font-weight: 500;
-  font-size: 16px; */
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -84,37 +87,76 @@ a {
   letter-spacing: 0.02em;
 }
 .mail-link {
-  color: #434455;
 }
-.mail-link :hover {
+.mail-link :hover,
+.tel-link :hover {
   color: #4d5ae5;
 }
-li .tel-link {
-  font-weight: 400;
+.tel-link {
+  /* font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #434455; */
 }
+/* Hero */
 .hero {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
 }
 .hero-title {
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
 }
 .hero-but {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
 }
+.but-text {
+  color: #fff;
+}
+/* About As */
 .sec-about-us {
 }
 .title-ab-us {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .list-ab-us {
 }
 .item-ab-us {
 }
 .text-ab-us {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
+/* Our team */
 .sec-our-team {
+  width: 1440px;
+  height: 732px;
+  background: #f4f4fd;
 }
 .title-our-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 .member-list {
 }
@@ -126,6 +168,7 @@ li .tel-link {
 }
 .hero-prof-descr {
 }
+/* Our Portfolio */
 .our-portfolio {
 }
 .title-our-port {
@@ -138,6 +181,7 @@ li .tel-link {
 }
 .text-our-port {
 }
+/* Footer */
 .footer {
 }
 .footer-logo-link {
