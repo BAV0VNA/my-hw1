@@ -1,13 +1,13 @@
 @import "node_modules/modern-normalize/modern-normalize.css";
 
 body {
+  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
   background-color: #fff;
-  line-height: normal;
 }
 
-Color custom properties Copy :root {
+:root {
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --navy-blue: #2e2f42;
@@ -21,17 +21,126 @@ Color custom properties Copy :root {
   --white: #fff;
   --dairy: #fcfcfc;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 
 ul,
 ol {
-  list-style-type: none;
-}
-
-.web-link {
-  color: #4d5ae5;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 a {
   text-decoration: none;
   list-style-type: none;
+}
+
+.header {
+}
+.header-nav {
+}
+.header-logo-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.web-link {
+  font-weight: 700;
+  font-size: 18px;
+  /* line-height: 117%; */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.nav-list {
+}
+.nav-item {
+  /* font-weight: 500;
+  font-size: 16px; */
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.nav-item :hover {
+  color: #4d5ae5;
+}
+.header-address {
+}
+.address-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+.mail-link {
+  color: #434455;
+}
+.mail-link :hover {
+  color: #4d5ae5;
+}
+li .tel-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.hero {
+}
+.hero-title {
+}
+.hero-but {
+}
+.sec-about-us {
+}
+.title-ab-us {
+}
+.list-ab-us {
+}
+.item-ab-us {
+}
+.text-ab-us {
+}
+.sec-our-team {
+}
+.title-our-team {
+}
+.member-list {
+}
+.hero-descr {
+}
+.hero-img {
+}
+.hero-name {
+}
+.hero-prof-descr {
+}
+.our-portfolio {
+}
+.title-our-port {
+}
+.list-our-port {
+}
+.item-our-port {
+}
+.img-our-port {
+}
+.text-our-port {
+}
+.footer {
+}
+.footer-logo-link {
+}
+.footer-text {
 }
