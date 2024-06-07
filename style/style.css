@@ -232,13 +232,14 @@ a {
   width: 1440px;
   height: 312px;
 }
+
 .footer-logo-link {
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #f4f4fd;
 }
 .web-link-footer {
   font-weight: 700;
@@ -250,4 +251,9 @@ a {
 }
 
 .footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
