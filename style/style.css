@@ -211,6 +211,7 @@ a {
   color: #2e2f42;
 }
 .list-our-port {
+  display: flex;
 }
 .item-our-port {
 }
