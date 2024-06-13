@@ -8,7 +8,7 @@ body {
 }
 
 section {
-  outline: red;
+  outline: 2px solid red;
 }
 
 :root {
@@ -49,6 +49,13 @@ img {
 
 a {
   text-decoration: none;
+}
+.container {
+  max-width: 1440px;
+  padding-left: ;
+  padding-right: ;
+  margin-left: ;
+  margin-right: ;
 }
 /* Header */
 .header {
