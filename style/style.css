@@ -3,7 +3,7 @@
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #fff;
 }
 
@@ -43,10 +43,12 @@ ol {
   padding-left: 0;
 }
 
+img {
+  display: block;
+}
+
 a {
   text-decoration: none;
-  list-style-type: none;
-  font-style: normal;
 }
 /* Header */
 .header {
