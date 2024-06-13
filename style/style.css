@@ -7,6 +7,10 @@ body {
   background-color: #fff;
 }
 
+section {
+  outline: red;
+}
+
 :root {
   --iris: #4d5ae5;
   --ocean: #404bbf;
@@ -21,6 +25,7 @@ body {
   --white: #fff;
   --dairy: #fcfcfc;
 }
+
 h1,
 h2,
 h3,
