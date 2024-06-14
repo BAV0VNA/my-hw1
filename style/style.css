@@ -52,13 +52,13 @@ a {
 }
 .container {
   max-width: 1440px;
-  padding-left: ;
-  padding-right: ;
-  margin-left: ;
-  margin-right: ;
 }
 /* Header */
 .header {
+  display: flex;
+  width: 1440px;
+  height: 72px;
+  align-items: center;
 }
 .header .container {
   display: flex;
@@ -67,6 +67,7 @@ a {
   display: flex;
 }
 .header-logo-link {
+  padding-left: 156px;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
@@ -84,6 +85,8 @@ a {
 }
 .nav-list {
   display: flex;
+  padding-left: 76px;
+  gap: 40px;
 }
 .nav-item {
 }
@@ -102,6 +105,8 @@ a {
 }
 .address-list {
   display: flex;
+  padding-left: 332px;
+  gap: 40px;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -132,13 +137,20 @@ a {
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .hero-title {
+  width: 496px;
+  /* padding-top: 188px; */
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin-bottom: 48px;
 }
 .hero-but {
   border-radius: 4px;
@@ -155,9 +167,13 @@ a {
 }
 .but-text {
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* About As */
 .sec-about-us {
+  display: flex;
 }
 .title-ab-us {
   font-weight: 500;
@@ -167,6 +183,8 @@ a {
   color: #2e2f42;
 }
 .list-ab-us {
+  display: flex;
+  flex-wrap: wrap;
 }
 .item-ab-us {
 }
