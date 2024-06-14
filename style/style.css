@@ -137,9 +137,9 @@ a {
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .hero-title {
@@ -150,7 +150,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
 }
 .hero-but {
   border-radius: 4px;
