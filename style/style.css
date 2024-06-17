@@ -46,6 +46,12 @@ ol {
 img {
   display: block;
 }
+.container {
+  max-width: 1158px;
+  /* outline: 1px solid red; */
+  /* margin: 0 auto;
+  padding: 0 15px; */
+}
 
 a {
   text-decoration: none;
@@ -56,8 +62,8 @@ a {
 /* Header */
 .header {
   display: flex;
-  width: 1440px;
-  height: 72px;
+  /* width: 1440px;
+  height: 72px; */
   align-items: center;
 }
 .header .container {
@@ -135,8 +141,8 @@ a {
 /* Hero */
 .hero {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
+  max-width: 1440px;
+
   /* display: flex;
   align-items: center;
   justify-content: center; */
@@ -198,8 +204,8 @@ a {
 }
 /* Our team */
 .sec-our-team {
-  width: 1440px;
   background: #f4f4fd;
+  /* height: 732px; */
 }
 .title-our-team {
   font-weight: 700;
@@ -208,8 +214,15 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
+  padding-top: 120px;
 }
 .member-list {
+  display: flex;
+  gap: 24px;
+  padding-bottom: 120px;
+  padding-left: 156px;
+  padding-right: 156px;
 }
 .hero-descr {
   border-radius: 0 0 4px 4px;
@@ -222,6 +235,9 @@ a {
 }
 .hero-img {
 }
+.container-name-prof {
+  padding-top: 32px;
+}
 .hero-name {
   font-weight: 500;
   font-size: 20px;
@@ -229,6 +245,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  padding-bottom: 8px;
 }
 .hero-prof-descr {
   font-weight: 400;
