@@ -259,6 +259,10 @@ a {
 }
 .item-our-port {
 }
+.conteiner-img-portf {
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 .img-our-port {
 }
 .descr-title-sec {
